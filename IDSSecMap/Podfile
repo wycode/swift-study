@@ -1,0 +1,21 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, "7.0"
+
+target "IDSSecMap" do
+
+  pod 'AFNetworking',     '~> 3.0'
+
+  inhibit_all_warnings!
+
+end
+
+target "IDSSecMapTests" do
+
+  # pod 'Specta',      '~> 0.2.1'
+  # pod 'Expecta',     '~> 0.2.3'
+  # pod 'OCMock',      '~> 2.2.1'
+
+  # inhibit_all_warnings!
+
+end
+

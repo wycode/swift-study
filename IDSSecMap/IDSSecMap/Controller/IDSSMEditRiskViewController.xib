@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IDSSMEditRiskViewController">
+            <connections>
+                <outlet property="leftSegButton" destination="1wc-nz-PsO" id="E1V-kR-6ET"/>
+                <outlet property="leftStateButton" destination="tYK-4g-dPc" id="wU6-De-HdI"/>
+                <outlet property="midSegButton" destination="Ydb-6T-9kp" id="7TY-4R-5nH"/>
+                <outlet property="rightSegButton" destination="lyu-Sw-SVW" id="ABI-hv-qPG"/>
+                <outlet property="rightState" destination="eTi-Xv-j3u" id="ygq-ZM-V8U"/>
+                <outlet property="riskBrief" destination="0bm-2N-rbO" id="fA7-WI-ZVq"/>
+                <outlet property="riskDetail" destination="hw9-Oo-eNj" id="aLj-Is-9zO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="隐患描述" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sju-nx-zLg">
+                    <rect key="frame" x="0.0" y="66" width="320" height="21"/>
+                    <color key="backgroundColor" white="0.89284106620000003" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Yvn-q3-S9c"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0bm-2N-rbO">
+                    <rect key="frame" x="0.0" y="97" width="320" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="隐患详情" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Swf-Gu-Qb5">
+                    <rect key="frame" x="0.0" y="233" width="320" height="21"/>
+                    <color key="backgroundColor" white="0.89284106620000003" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="yBM-0n-5qY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="隐患程度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="94S-F0-hZV">
+                    <rect key="frame" x="0.0" y="383" width="320" height="21"/>
+                    <color key="backgroundColor" white="0.89284106620000003" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="RKd-s7-3yY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hw9-Oo-eNj">
+                    <rect key="frame" x="0.0" y="252" width="320" height="126"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" tag="101" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wc-nz-PsO">
+                    <rect key="frame" x="5" y="415" width="30" height="30"/>
+                    <state key="normal" title="Button" image="no.jpg"/>
+                    <state key="selected" image="yes.jpg"/>
+                    <connections>
+                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="VVe-Nd-QlB"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="无隐患" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nP9-ks-Ehc">
+                    <rect key="frame" x="43" y="421" width="51" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="102" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydb-6T-9kp">
+                    <rect key="frame" x="100" y="415" width="30" height="30"/>
+                    <state key="normal" title="Button" image="no.jpg"/>
+                    <state key="selected" image="yes.jpg"/>
+                    <connections>
+                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="hnf-Ot-QZq"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="一般隐患" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Svr-gH-AOM">
+                    <rect key="frame" x="138" y="410" width="70" height="41"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="103" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyu-Sw-SVW">
+                    <rect key="frame" x="211" y="415" width="30" height="30"/>
+                    <state key="normal" title="Button" image="no.jpg"/>
+                    <state key="selected" image="yes.jpg"/>
+                    <connections>
+                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="RQT-cG-zkQ"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="重大隐患" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n74-ZU-pCi">
+                    <rect key="frame" x="249" y="411" width="74" height="41"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="排除状况" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4f-QP-eer">
+                    <rect key="frame" x="0.0" y="463" width="320" height="20.5"/>
+                    <color key="backgroundColor" white="0.89284106620000003" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="1001" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tYK-4g-dPc">
+                    <rect key="frame" x="8" y="496" width="33" height="33"/>
+                    <state key="normal" title="Button" image="no.jpg"/>
+                    <state key="selected" image="yes.jpg"/>
+                    <connections>
+                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="KmT-1d-LBc"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="未排除" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TI9-W8-FpU">
+                    <rect key="frame" x="59" y="502" width="51" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="已排除" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHT-dp-yu0">
+                    <rect key="frame" x="232" y="505" width="51" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="1002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTi-Xv-j3u">
+                    <rect key="frame" x="191" y="497" width="32" height="33"/>
+                    <state key="normal" title="Button" image="no.jpg"/>
+                    <state key="selected" image="yes.jpg"/>
+                    <connections>
+                        <action selector="buttonClick:" destination="-1" eventType="touchUpInside" id="bsT-5E-nmP"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Swf-Gu-Qb5" secondAttribute="trailing" id="1bI-Cm-jBc"/>
+                <constraint firstItem="f4f-QP-eer" firstAttribute="trailing" secondItem="94S-F0-hZV" secondAttribute="trailing" id="8hg-IF-3HP"/>
+                <constraint firstItem="Sju-nx-zLg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="66" id="AuQ-wc-7q4"/>
+                <constraint firstItem="Swf-Gu-Qb5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="GAr-BX-b2h"/>
+                <constraint firstAttribute="trailing" secondItem="94S-F0-hZV" secondAttribute="trailing" id="M3D-0a-zjc"/>
+                <constraint firstItem="94S-F0-hZV" firstAttribute="top" secondItem="Swf-Gu-Qb5" secondAttribute="top" constant="150" id="Pgz-PI-s4I"/>
+                <constraint firstItem="Swf-Gu-Qb5" firstAttribute="top" secondItem="Sju-nx-zLg" secondAttribute="top" constant="167" id="Xoo-AQ-VqS"/>
+                <constraint firstItem="94S-F0-hZV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="YCQ-Dt-rMx"/>
+                <constraint firstItem="f4f-QP-eer" firstAttribute="top" secondItem="94S-F0-hZV" secondAttribute="top" constant="80" id="cvX-D5-tmC"/>
+                <constraint firstItem="f4f-QP-eer" firstAttribute="leading" secondItem="94S-F0-hZV" secondAttribute="leading" id="l1c-H6-tk3"/>
+                <constraint firstItem="Sju-nx-zLg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="mDK-x5-8vB"/>
+                <constraint firstAttribute="trailing" secondItem="Sju-nx-zLg" secondAttribute="trailing" id="sQD-b9-WhT"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="-132" y="-373"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="no.jpg" width="40" height="40"/>
+        <image name="yes.jpg" width="40" height="40"/>
+    </resources>
+</document>

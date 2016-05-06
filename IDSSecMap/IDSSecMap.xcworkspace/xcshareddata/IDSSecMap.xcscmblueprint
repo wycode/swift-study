@@ -1,0 +1,52 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "17D4EC5F333A911D41A8241B116C7D44F81842DE+++8B0E7E7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "17D4EC5F333A911D41A8241B116C7D44F81842DE+++5812C01" : {
+
+    },
+    "b13c6894-a453-43df-9ca0-362272e45065++5132+++9DAFE7D" : {
+
+    },
+    "17D4EC5F333A911D41A8241B116C7D44F81842DE+++8B0E7E7" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "17D4EC5F333A911D41A8241B116C7D44F81842DE+++8B0E7E7" : 0,
+    "b13c6894-a453-43df-9ca0-362272e45065++5132+++9DAFE7D" : 0,
+    "17D4EC5F333A911D41A8241B116C7D44F81842DE+++5812C01" : 0,
+    "EF51387A5AF28E4351AFB0302884600583A438B5+++4FBEE65" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EAFBAEF2-B564-4F5C-AEA3-DA2858FF5322",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "17D4EC5F333A911D41A8241B116C7D44F81842DE+++8B0E7E7" : "dev\/tools\/ios\/IDSSecMap\/CocoaSecurity\/",
+    "b13c6894-a453-43df-9ca0-362272e45065++5132+++9DAFE7D" : "dev\/",
+    "17D4EC5F333A911D41A8241B116C7D44F81842DE+++5812C01" : "dev\/tools\/ios\/IDSSecMap\/CocoaSecurity\/",
+    "EF51387A5AF28E4351AFB0302884600583A438B5+++4FBEE65" : "dev\/tools\/ios\/IDSSecMap\/IDSSecMap\/JSONKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "IDSSecMap",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "tools\/ios\/IDSSecMap\/IDSSecMap.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.102\/svn\/ids_repo",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "17D4EC5F333A911D41A8241B116C7D44F81842DE+++5812C01"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kelp404\/CocoaSecurity.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "17D4EC5F333A911D41A8241B116C7D44F81842DE+++8B0E7E7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/johnezang\/JSONKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EF51387A5AF28E4351AFB0302884600583A438B5+++4FBEE65"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.102\/svn\/ids_repo",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b13c6894-a453-43df-9ca0-362272e45065++5132+++9DAFE7D"
+    }
+  ]
+}
